@@ -1,0 +1,245 @@
+2016-12-09 11:53:55,997 [48] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: btnUpdate_Click, Error Message: 
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 12:12:49,252 [6] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPTPage Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 13:34:26,511 [10] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 13:34:29,352 [8] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 13:34:58,187 [8] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 13:34:58,359 [8] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 13:34:58,383 [8] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 13:34:58,454 [8] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 13:35:01,516 [7] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 13:35:02,145 [7] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 13:35:02,239 [7] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 13:35:04,099 [8] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 13:35:04,166 [8] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 13:35:04,182 [8] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 13:35:04,254 [8] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 13:35:30,486 [7] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 13:35:30,922 [7] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 13:48:50,552 [14] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 13:54:33,011 [18] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:11:57,136 [6] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:14:25,178 [13] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:15:52,296 [18] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:15:59,222 [13] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:16:23,446 [12] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:16:23,618 [12] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:16:23,633 [12] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:16:27,798 [12] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:17:00,087 [18] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:17:00,274 [18] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:17:02,099 [18] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:17:23,340 [13] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:17:23,387 [13] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:17:23,403 [13] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:17:25,368 [13] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:17:33,183 [18] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:17:35,523 [18] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1951
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:19:49,390 [42] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:19:51,528 [35] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:19:53,166 [37] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:19:53,294 [37] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:19:53,301 [37] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:19:53,342 [37] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:20:00,938 [37] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:20:01,058 [37] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:20:01,146 [37] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:20:02,620 [41] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:20:02,664 [41] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:20:02,671 [41] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:20:02,731 [41] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:20:07,098 [42] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:20:07,154 [42] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:28:58,325 [34] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:29:09,451 [22] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:29:12,360 [32] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:29:12,497 [32] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:29:12,511 [32] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:29:12,570 [32] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:29:15,044 [31] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:29:15,163 [31] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:29:15,247 [31] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:29:17,039 [22] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:29:17,083 [22] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:29:17,090 [22] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:29:17,145 [22] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:29:20,083 [34] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:29:20,136 [34] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:31:49,968 [30] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:31:52,280 [28] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:32:06,787 [28] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:32:06,928 [28] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:32:06,945 [28] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:32:07,012 [28] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:32:09,334 [27] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:32:11,454 [27] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:32:11,557 [27] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:32:16,095 [34] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:32:16,222 [34] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:32:16,314 [34] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:32:18,057 [27] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:32:18,112 [27] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:32:18,126 [27] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:32:18,202 [27] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:32:21,257 [28] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:32:21,342 [28] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:36:35,119 [26] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:36:41,046 [26] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:36:42,606 [29] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:36:42,737 [29] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:36:42,745 [29] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:36:42,801 [29] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:36:45,247 [30] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:36:45,366 [30] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:36:45,440 [30] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:36:47,356 [29] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:36:47,404 [29] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:36:47,412 [29] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:36:47,463 [29] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:36:50,328 [30] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:36:50,379 [30] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:43:41,595 [13] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:43:52,952 [13] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:44:04,642 [12] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:44:04,783 [12] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:44:04,783 [12] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:44:06,202 [12] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:46:23,623 [34] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:46:37,163 [35] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:46:38,815 [40] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:46:38,968 [40] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:46:38,980 [40] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:46:39,035 [40] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:53:01,120 [21] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:53:04,434 [35] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:53:06,019 [21] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:53:06,161 [21] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:53:06,176 [21] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 14:53:06,228 [21] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:53:08,257 [35] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:53:08,376 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:53:08,462 [35] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:53:25,337 [34] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 14:53:25,469 [34] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 14:53:25,537 [34] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 14:53:33,859 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 14:53:33,907 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 14:53:33,916 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 14:53:33,979 [35] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 14:53:36,891 [21] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 14:53:36,954 [21] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 14:59:22,786 [7] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:00:42,599 [20] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:00:49,349 [34] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_auhome_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:00:51,116 [20] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:00:51,249 [20] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 15:00:51,260 [20] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_DealerDeputy', @orderby = N'deputy', @count = N'0'
+2016-12-09 15:00:51,311 [20] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 15:00:53,721 [27] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.au_dealersub_dealers_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:00:53,851 [27] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'dealersub_Dealers', @orderby = N'DealerName', @count = N'1000'
+2016-12-09 15:00:53,918 [27] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Page_LoadComplete, Log Info
+
+2016-12-09 15:00:55,360 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_Dealers', @wherename = N'id', @wherevalue = '460', @orderby = N'id'
+2016-12-09 15:00:55,374 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_GetData @database = N'tobie_AU', @table = N'au_States', @orderby = N'state', @count = N'0'
+2016-12-09 15:00:55,385 [35] INFO  HCTO.TOBI.Data.TORepository`1 EXEC TOBIE.dbo.sp_Find @database = N'tobie_AU', @debug = 1, @table = N'dealersub_DealerDeputy', @wherename = N'id', @wherevalue = '460', @orderby = N'deputy'
+2016-12-09 15:00:55,461 [35] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: Show_Hide_Details, Log Info
+
+2016-12-09 15:00:58,401 [35] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 15:00:58,461 [35] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 15:01:12,565 [27] INFO  HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Log Info
+
+2016-12-09 15:01:12,612 [27] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
+2016-12-09 15:06:24,304 [13] INFO  HCTO.TOBI.AU.Web.root Page Name: ASP.home_aspx, User Info: lhuynh@hcto.hc.hctx.net, Method Name: Page_Load
+2016-12-09 15:12:45,400 [23] ERROR HCTO.TOBI.WebForms.Abstract.TobieWebPage , User Info: lhuynh@hcto.hc.hctx.net, WorkStation: HCTOITDEV1, Location: ITDEPT, Page Name: ASP.au_dealersub_dealers_aspx, Method Name: btnUpdate_Click, Error Message: 
+
+System.ArgumentException: The connection object cannot be null
+   at HCTO.TOBI.AU.Data.TOBIE_AU_DAL.sp_UpdateDealersub_Dealers(SqlConnection connection, DataTable table, Int32 Original_ID, Int32 ID, String DSNUM, String DEALERNAME, String TRACKINGNO, String ADDR, String CITY, String STATE, String ZIP, String MAILADDR, String MAILCITY, String MAILSTATE, String MAILZIP, String OWNERNAME, String PHONE, Nullable`1 LASTVISIT, Nullable`1 TOTDEPUTIES, String COMMENTS, Nullable`1 OPENDATE, Nullable`1 CLOSEDATE, String BONDNUM, Nullable`1 BONDAMT, Nullable`1 BONDEFFDATE, Nullable`1 BONDEXPDATE, String BANKNAME, String BANKACCT, Nullable`1 GUAREFFDATE, Nullable`1 GUAREXPDATE, Nullable`1 INSUREEFFDATE, Nullable`1 INSUREEXPDATE, Nullable`1 HADALETTERDATE, String FORM31, String PASSPLATES, String TRKPLATES, String EMAIL, String FAX, Nullable`1 DOLLAREFFDATE, Nullable`1 DOLLAREXPDATE, Nullable`1 LIMITUPDATED, String OFFICEMGR, String BONDNAME, String REFUNDADDR, String REFUNDCITY, String REFUNDSTATE, String REFUNDZIP, String REFUNDPHONE, String DEALERSUBDEPUTY, Nullable`1 CREATEDATE, String BUSADDR, String BUSCITY, String BUSSTATE, String BUSZIP) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Data\TOBIE_AU_DAL.cs:line 1954
+   at HCTO.TOBI.AU.Web.dealersub.dealers.UpdateDealersub_Dealers(Object sender) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 441
+   at HCTO.TOBI.AU.Web.dealersub.dealers.btnUpdate_Click(Object sender, EventArgs e) in c:\LuanHuynh\Projects\VisualStudioProj\HCTO.Core\HCTO.TOBI.AU.Web\AU\dealersub\dealers.aspx.cs:line 315
